@@ -1,0 +1,128 @@
+LINK {
+	font-family: Verdana;
+	color: #FFFFFF;
+	text-decoration: none
+}
+a:link {
+	font-family: Verdana;
+	color: #2F5584;
+	text-decoration: none;
+	font-size: 12px
+}
+a:hover {
+	font-family: Verdana;
+	color: #000000;
+	font-size: 12px;
+	text-decoration:underline
+}
+a:visited {
+	font-family: Verdana;
+	color: #000066;
+	text-decoration: none;
+	font-size: 12px
+}
+a:visited:hover {
+	font-family: Verdana;
+	color: #0099CC;
+	text-decoration: underline;
+	font-size: 12px
+}
+
+TD {
+	COLOR: #000000;
+	FONT-FAMILY: Verdana;
+	FONT-SIZE: 12px
+}
+
+
+#dropmenudiv{
+position:absolute;
+border:1px solid gray;
+border-bottom-width: 0;
+font: normal 13px Trebuchet MS;
+line-height:18px;
+z-index:100;
+margin-Top: 3px;
+}
+
+#dropmenudiv a{
+width: 100%;
+display: block;
+font: normal 13px Trebuchet MS;
+color: #000000;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 1px 0;
+text-decoration: none;
+font-weight: bold;
+}
+
+#dropmenudiv a:hover{ /*hover background color*/
+background-color: #024E3C;
+font: normal 13px Trebuchet MS;
+color: #FFFFFF
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.style1 {
+	color: #003399;
+	font-weight: bold;
+}
+.style2 {	
+	color: #003399;
+	font-weight: bold;
+	font-family: "Futura Md BT";
+	font-size: 16px;
+}
+.style3 {
+	color: #003399; 
+	font-weight: bold; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 16px; 
+	}
+
+.style4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003399;
+	font-size: 18px;
+}
+
+.style5 {
+	color: #003399;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.style6 {
+	color: #003399;
+	font-weight: bold;
+}
+
+table.imagetable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.imagetable th {
+	background:#b5cfd2 url(images/cell-blue.jpg);
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.imagetable td {
+	background:#dcddc0 url(images/cell-grey.jpg);
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
